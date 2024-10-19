@@ -12,6 +12,7 @@
 }
 .img-box {
   width: 90%;
+  max-width: 600px;
   position: relative;
   background-image: url(images/background.png);
   background-repeat: repeat;
@@ -39,9 +40,4 @@
   height: 40px;
   width: 40px;
   color: #fff;
-}
-@media (width >= 768px) {
-  .img-box {
-    width: 60%;
-  }
 }
